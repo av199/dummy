@@ -20,7 +20,7 @@ import argparse
 import requests
 import os
 import io
-import matplotlib
+import pandas
 #---------------------------------
 sys.stdout = io.TextIOWrapper(sys.stdout.detach(), encoding = 'utf-8')
 sys.stderr = io.TextIOWrapper(sys.stderr.detach(), encoding = 'utf-8')
